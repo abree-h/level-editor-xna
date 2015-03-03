@@ -10,7 +10,7 @@ namespace LevelEditor_XNA_
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (LevelEditor game = new LevelEditor())
             {
                 game.Run();
             }
