@@ -86,6 +86,17 @@ namespace LevelEditor_XNA_
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
+
+            for (float x = -cols; x < cols; x++)
+            {
+                Rectangle rectangle = new Rectangle((int)(centerX + x * gridSize), 0, 1, height);
+                spriteBatch.Draw(texture1px, rectangle, Color.Red);
+            }
+            for (float y = -rows; y < rows; y++)
+            {
+                Rectangle rectangle = new Rectangle(0, (int)(centerY + y * gridSize), width, 1);
+                spriteBatch.Draw(texture1px, rectangle, Color.Red);
+            }
         }
     }
 }
