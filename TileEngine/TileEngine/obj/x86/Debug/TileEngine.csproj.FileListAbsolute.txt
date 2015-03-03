@@ -1,0 +1,14 @@
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
