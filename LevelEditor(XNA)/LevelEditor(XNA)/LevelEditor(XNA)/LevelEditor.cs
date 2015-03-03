@@ -16,7 +16,7 @@ namespace LevelEditor_XNA_
     /// </summary>
     public class LevelEditor : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
+        GraphicsDeviceManager graphics;//
         SpriteBatch spriteBatch;
 
         public LevelEditor()
