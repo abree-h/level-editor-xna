@@ -14,12 +14,12 @@ namespace LevelEditor_XNA_
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class LevelEditor : Microsoft.Xna.Framework.Game
+    public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;//
         SpriteBatch spriteBatch;
 
-        public LevelEditor()
+        public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
