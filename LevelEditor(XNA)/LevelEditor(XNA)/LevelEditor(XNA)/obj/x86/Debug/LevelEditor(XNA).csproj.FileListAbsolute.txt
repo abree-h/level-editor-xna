@@ -1,0 +1,2 @@
+C:\Users\red\Documents\GitHub\level-editor-xna\LevelEditor(XNA)\LevelEditor(XNA)\LevelEditor(XNA)\obj\x86\Debug\LevelEditor(XNA).csprojResolveAssemblyReference.cache
+C:\Users\red\Documents\GitHub\level-editor-xna\LevelEditor(XNA)\LevelEditor(XNA)\LevelEditor(XNA)\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
