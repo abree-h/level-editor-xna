@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb</Output>
+      <Output>E:\level-editor-xna\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb</Output>
       <Time>2010-11-25T07:36:00-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -17,10 +17,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngineContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>E:\level-editor-xna\TileEngine\TileEngineContent\</RootDirectory>
+      <LoggerRootDirectory>E:\level-editor-xna\TileEngine\TileEngine\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\level-editor-xna\TileEngine\TileEngine\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\level-editor-xna\TileEngine\TileEngine\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

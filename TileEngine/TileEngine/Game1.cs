@@ -16,12 +16,14 @@ namespace TileEngine
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
+        //the graphics for our editor
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        //creates a new TileMap
         TileMap myMap = new TileMap();
-        int squaresAcross = 5;
-        int squaresDown = 5;
+        //initializes the map
+        int squaresAcross = 50;
+        int squaresDown = 50;
 
         public Game1()
         {
@@ -38,7 +40,7 @@ namespace TileEngine
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            this.IsMouseVisible = true;
             base.Initialize();
         }
 
@@ -55,6 +57,8 @@ namespace TileEngine
 
             // TODO: use this.Content to load your game content here
         }
+
+        
 
         /// <summary>
         /// UnloadContent will be called once per game and is the place to unload
@@ -75,7 +79,7 @@ namespace TileEngine
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
-
+            //This code will be used later for testing
             KeyboardState ks = Keyboard.GetState();
             if (ks.IsKeyDown(Keys.Left))
             {
@@ -108,9 +112,9 @@ namespace TileEngine
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
+            //start drawing
             spriteBatch.Begin();
-
+            //create first square
             Vector2 firstSquare = new Vector2(Camera.Location.X / 32, Camera.Location.Y / 32);
             int firstX = (int)firstSquare.X;
             int firstY = (int)firstSquare.Y;
@@ -118,11 +122,12 @@ namespace TileEngine
             Vector2 squareOffset = new Vector2(Camera.Location.X % 32, Camera.Location.Y % 32);            
             int offsetX = (int)squareOffset.X;
             int offsetY = (int)squareOffset.Y;
-
+            //draw the squares
             for (int y = 0; y < squaresDown; y++)
             {
                 for (int x = 0; x < squaresAcross; x++)
                 {
+                    //Create tiles using spriteBatch
                     spriteBatch.Draw(
                         Tile.TileSetTexture,
                         new Rectangle((x * 32) - offsetX, (y * 32) - offsetY, 32, 32),
@@ -134,6 +139,28 @@ namespace TileEngine
             spriteBatch.End();
             // TODO: Add your drawing code here
 
+            //Mouse state for tile selection, some errors here with positioning
+            MouseState ms = Mouse.GetState();
+            //If left mouse is clicked do this
+            if (ms.LeftButton == ButtonState.Pressed)
+            {
+                int x = Convert.ToInt32(ms.X) / 16;
+                int y = Convert.ToInt32(ms.Y) / 16;
+
+                myMap.Rows[x].Columns[y].TileID = 1;//Left button Clicked, Change Texture here!
+
+            }
+            //If the right mouse button is clicked do this
+            if (ms.RightButton == ButtonState.Pressed)
+            {
+                int x = Convert.ToInt32(ms.X) / 16;
+                int y = Convert.ToInt32(ms.Y) / 16 + 1;
+
+                myMap.Rows[x].Columns[y].TileID = 3;//Right button Clicked, Change Texture here!
+
+
+            }
+            //testing purposes for later
             base.Draw(gameTime);
         }
     }

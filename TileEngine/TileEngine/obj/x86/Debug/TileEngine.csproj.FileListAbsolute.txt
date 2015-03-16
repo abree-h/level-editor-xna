@@ -12,3 +12,10 @@ C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine
 C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
 C:\Users\Kevin\Desktop\tileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
+E:\level-editor-xna\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+E:\level-editor-xna\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+E:\level-editor-xna\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+E:\level-editor-xna\TileEngine\TileEngine\obj\x86\Debug\TileEngine.csprojResolveAssemblyReference.cache
+E:\level-editor-xna\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\level-editor-xna\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+E:\level-editor-xna\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb

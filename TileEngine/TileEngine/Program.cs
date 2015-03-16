@@ -10,6 +10,7 @@ namespace TileEngine
         /// </summary>
         static void Main(string[] args)
         {
+            //call tile editor
             using (Game1 game = new Game1())
             {
                 game.Run();
